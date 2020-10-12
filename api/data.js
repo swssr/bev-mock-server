@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    name: "Mission Chinese Food",
+    name: "011",
     neighborhood: "Manhattan",
     photograph: "1.jpg",
     address: "171 E Broadway, New York, NY 10002",
@@ -21,7 +21,7 @@ module.exports = [
     },
     reviews: [
       {
-        name: "Steve",
+        name: "Baron",
         date: "October 26, 2016",
         rating: 4,
         comments:
