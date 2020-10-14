@@ -208,7 +208,7 @@ module.exports = [
   },
   {
     id: 2,
-    name: "Emily",
+    name: "Baron",
     neighborhood: "Brooklyn",
     photograph: "2.jpg",
     address: "919 Fulton St, Brooklyn, NY 11238",
@@ -216,6 +216,169 @@ module.exports = [
       lat: 40.683555,
       lng: -73.966393
     },
+    menu: [
+      {
+        title: "Starter",
+        items: [
+          {
+            name: "Starter 1",
+            size: "Size",
+            price: 200.0
+          },
+          {
+            name: "Starter 2",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Starter 2",
+            size: "Size",
+            price: 300.0
+          }
+        ]
+      },
+      {
+        title: "Salads",
+        items: [
+          {
+            name: "Salads 1",
+            size: "Size",
+            price: 200.0
+          },
+          {
+            name: "Salads 2",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Salads 2",
+            size: "Size",
+            price: 300.0
+          }
+        ]
+      },
+      {
+        active: true,
+        title: "Mains",
+        items: [
+          {
+            name: "Spatchcock",
+            size: "Half Chicken",
+            price: 150.0
+          },
+          {
+            name: "Beef Espatada",
+            size: "450g",
+            price: 150.0
+          },
+          {
+            name: "Pork rib & Chicken Combo",
+            size: "500g",
+            price: 180.0
+          },
+          {
+            name: "Baron's Burger",
+            size: "200g",
+            price: 95.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Main 3",
+            size: "Size",
+            price: 300.0
+          }
+        ]
+      },
+      {
+        title: "Kids",
+        items: [
+          {
+            name: "Item 1",
+            size: "Size",
+            price: 200.0
+          },
+          {
+            name: "Item 2",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Item 2",
+            size: "Size",
+            price: 300.0
+          }
+        ]
+      },
+      {
+        title: "Desert",
+        items: [
+          {
+            name: "Item 1",
+            size: "Size",
+            price: 200.0
+          },
+          {
+            name: "Item 2",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Item 2",
+            size: "Size",
+            price: 300.0
+          }
+        ]
+      },
+      {
+        title: "Beverages",
+        items: [
+          {
+            name: "Item 1",
+            size: "Size",
+            price: 200.0
+          },
+          {
+            name: "Item 2",
+            size: "Size",
+            price: 300.0
+          },
+          {
+            name: "Item 2",
+            size: "Size",
+            price: 300.0
+          }
+        ]
+      }
+    ],
     cuisine_type: "Pizza",
     operating_hours: {
       Monday: "5:30 pm - 11:00 pm",
